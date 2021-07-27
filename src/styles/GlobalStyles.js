@@ -70,7 +70,7 @@ ${
 
 body{
   
-  background-color: var(--background-dark-grey) ;
+  background-color: var(--background-dark-color) ;
 
 }
 `;
