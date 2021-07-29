@@ -1,43 +1,43 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import avatar from '../img/avatar.jpg';
+import avatarM from '../img/avatarM.jpg';
 
 function Navigation() {
   return (
     <NavigationStyled>
       <div className="avatar">
         {/* image to be 500X500 to have round frame */}
-        <img src={avatar} alt="avatar" />
+        <img src={avatarM} alt="avatar" />
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/home" activeClassName="active-class">
+          <NavLink to="/" exact activeClassName="active-class">
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" activeClassName="active-class">
+          <NavLink to="/about" exact activeClassName="active-class">
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class">
+          <NavLink to="/resume" exact activeClassName="active-class">
             Resume
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class">
+          <NavLink to="/portfolios" exact activeClassName="active-class">
             Portfolios
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/blogs" activeClassName="active-class">
+          <NavLink to="/blogs" exact activeClassName="active-class">
             Blogs
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class">
+          <NavLink to="/contact" exact activeClassName="active-class">
             Contact
           </NavLink>
         </li>
@@ -83,10 +83,13 @@ const NavigationStyled = styled.nav`
       display: block;
       a {
         display: block;
-        padding: 0.2rem 0;
+        padding: 0.45rem 0;
         position: relative;
         transition: all 0.4s ease-in-out;
         z-index: 10;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
         &:hover {
           cursor: pointer;
         }
