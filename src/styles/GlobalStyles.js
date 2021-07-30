@@ -87,8 +87,18 @@ h1{
   span{
     font-size: 4rem;
     color: var(--primary-color);
-  }
+  }  
 }
+h6{
+    font-size: 1.2rem;
+    color: var(--white-color);
+    padding-bottom: .6rem;
+  }
+
+  ${'' /* utilities */}
+  .u-margin-bottom{
+    margin-bottom: 4rem;
+  }
 `;
 
 export default GlobalStyle;
