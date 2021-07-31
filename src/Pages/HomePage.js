@@ -13,7 +13,7 @@ function HomePage() {
       </div>
       <div className="typography">
         <h1>
-          Hi I'm <span> Sai Kiran </span>
+          Hi, I'm <span> Sai Kiran </span>
         </h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
