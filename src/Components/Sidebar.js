@@ -15,6 +15,7 @@ const SidebarStyled = styled.div`
   height: 100vh;
   background-color: var(--sidebar-dark-color);
   position: fixed;
+  overflow: hidden;
 `;
 
 export default Sidebar;

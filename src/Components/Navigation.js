@@ -78,6 +78,7 @@ const NavigationStyled = styled.nav`
     text-align: center;
     .active-class {
       background-color: var(--primary-color);
+      color: var(--white-color);
     }
     li {
       display: block;

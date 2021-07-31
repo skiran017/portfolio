@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch as Switcher } from 'react-router-dom';
 import styled from 'styled-components';
 import Sidebar from './Components/Sidebar';
 import HomePage from './Pages/HomePage';
@@ -7,11 +7,47 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import ResumePage from './Pages/ResumePage';
 import PortfoliosPage from './Pages/PortfoliosPage';
+import Brightness4Icon from '@material-ui/icons/Brightness4';
+import Switch from '@material-ui/core/Switch';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  const [theme, setTheme] = useState('dark-theme');
+  const [checked, setChecked] = useState(false);
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const themeToggler = () => {
+    if (theme === 'light-theme') {
+      setTheme('dark-theme');
+      setChecked(false);
+    } else {
+      setTheme('light-theme');
+      setChecked(true);
+    }
+  };
+
   return (
     <div className="App">
       <Sidebar />
+      <div className="theme">
+        <div className="light-dark-mode">
+          <div className="left-content">
+            <Brightness4Icon />
+          </div>
+          <div className="right-content">
+            <Switch
+              value=""
+              checked={checked}
+              inputProps={{ 'aria-label': '' }}
+              color="primary"
+              size="normal"
+              onClick={themeToggler}
+            />
+          </div>
+        </div>
+      </div>
       <MainContentStyled>
         {/* <div className="lines">
           <div className="line1"></div>
@@ -19,7 +55,8 @@ function App() {
           <div className="line3"></div>
           <div className="line4"></div>
         </div> */}
-        <Switch>
+
+        <Switcher>
           <Route path="/" exact>
             <HomePage />
           </Route>
@@ -38,7 +75,7 @@ function App() {
           <Route path="/contact" exact>
             <ContactPage />
           </Route>
-        </Switch>
+        </Switcher>
       </MainContentStyled>
     </div>
   );
