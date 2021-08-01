@@ -19,6 +19,12 @@ const TitleStyled = styled.div`
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
+    @media screen and (max-width: 496) {
+      font-size: 2.8rem;
+    }
+    @media screen and (max-width: 370) {
+      font-size: 2rem;
+    }
     /* padding-bottom: 0.7rem; */
     &::before {
       content: '';
@@ -49,6 +55,15 @@ const TitleStyled = styled.div`
       left: 0;
       top: 30%;
       z-index: -1;
+      @media screen and (max-width: 620px) {
+        font-size: 4rem;
+      }
+      @media screen and (max-width: 496) {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 370) {
+        font-size: 2rem;
+      }
     }
   }
 `;
