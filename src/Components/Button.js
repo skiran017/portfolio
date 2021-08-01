@@ -32,6 +32,7 @@ const ButtonStyled = styled.button`
   padding: 0.4rem 2rem;
   font-size: inherit;
   color: var(--white-color);
+  margin-bottom: 0.6rem;
   transition: all 0.4s ease-in-out;
   &:active,
   &:focus {

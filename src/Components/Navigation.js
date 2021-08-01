@@ -93,6 +93,7 @@ const NavigationStyled = styled.nav`
         letter-spacing: 1px;
         &:hover {
           cursor: pointer;
+          color: var(--white-color);
         }
         &::before {
           content: '';
