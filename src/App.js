@@ -65,7 +65,7 @@ function App() {
         </div> */}
 
         <Switcher>
-          <Route path="/" exact>
+          <Route path="/portfolio" exact>
             <HomePage />
           </Route>
           <Route path="/about" exact>

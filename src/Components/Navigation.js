@@ -12,7 +12,7 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/" exact activeClassName="active-class">
+          <NavLink to="/portfolio" exact activeClassName="active-class">
             Home
           </NavLink>
         </li>
