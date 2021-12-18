@@ -16,9 +16,7 @@ function HomePage() {
           Hi, I'm <span> Sai Kiran </span>
         </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Exercitationem sed quaerat sit, perferendis labore placeat fuga
-          laboriosam maxime libero reiciendis! Lorem ipsum dolor sit amet.
+          A Front-end web developer, Blockchain enthusiast and passionate about technology from Hyderabad, India.  
         </p>
         <div className="icons">
           <a href="https://facebook.com/skiran017" className="icon i-facebook">
