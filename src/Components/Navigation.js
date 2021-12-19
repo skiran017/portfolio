@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import avatarM from '../img/avatarM.jpg';
 
 function Navigation() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <NavigationStyled>
       <div className="avatar">
@@ -31,11 +33,11 @@ function Navigation() {
             Portfolios
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink to="/blogs" exact activeClassName="active-class">
             Blogs
           </NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink to="/contact" exact activeClassName="active-class">
             Contact
@@ -44,7 +46,7 @@ function Navigation() {
       </ul>
       <footer className="footer">
         <p>
-          <span>&copy;</span> 2021 My Portfolio Website
+          <span>&copy;</span> <span>{currentYear}</span> Sai Kiran Sabavath
         </p>
       </footer>
     </NavigationStyled>

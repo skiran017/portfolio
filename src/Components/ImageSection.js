@@ -4,6 +4,9 @@ import resume from '../img/resume.jpg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
+  const currentYear = new Date().getFullYear();
+  const currentAge = currentYear - 1995;
+
   return (
     <ImageSectionStyled>
       <div className="left-content">
@@ -29,15 +32,18 @@ function ImageSection() {
             <p>Services</p>
           </div>
           <div className="info">
-            <p>: Sai Kiran</p>
-            <p>: 26</p>
+            <p>: Sai Kiran Sabavath</p>
+            <p>: {currentAge}</p>
             <p>: Indian</p>
-            <p>: English, Hindi, Russian</p>
+            <p>: English, Hindi, Russian, German</p>
             <p>: Hyderabad, India</p>
             <p>: Full-stack Web Development</p>
           </div>
         </div>
-        <PrimaryButton title={'Download CV'} />
+        <PrimaryButton
+          title={'Download CV'}
+          link="/portfolio/kiri_resume.pdf"
+        />
       </div>
     </ImageSectionStyled>
   );

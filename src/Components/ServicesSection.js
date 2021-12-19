@@ -4,14 +4,17 @@ import { InnerLayout } from '../styles/Layouts';
 import ServiceCard from './ServiceCard';
 import Title from './Title';
 import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
+import chess from '../img/chess.svg';
+import soccer from '../img/soccer.svg';
+import garden from '../img/garden.svg';
+import reading from '../img/reading.svg';
 import gamedev from '../img/game-dev.svg';
 
 function ServicesSection() {
   return (
     <InnerLayout>
       <ServicesSectionStyled>
-        <Title title={'Services'} span={'services'} />
+        <Title title={'Hobbies'} span={'hobbies'} />
         <div className="services">
           <ServiceCard
             image={design}
@@ -22,8 +25,8 @@ function ServicesSection() {
           />
           <div className="mid-card">
             <ServiceCard
-              image={intelligence}
-              title={'Artificial Intelligence'}
+              image={chess}
+              title={'Chess'}
               paragraph={
                 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
               }
@@ -31,7 +34,30 @@ function ServicesSection() {
           </div>
           <ServiceCard
             image={gamedev}
-            title={'Game Development'}
+            title={'Video Games'}
+            paragraph={
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+            }
+          />
+          <ServiceCard
+            image={soccer}
+            title={'Soccer'}
+            paragraph={
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+            }
+          />
+          <div className="mid-card">
+            <ServiceCard
+              image={garden}
+              title={'Gardening'}
+              paragraph={
+                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+              }
+            />
+          </div>
+          <ServiceCard
+            image={reading}
+            title={'Reading'}
             paragraph={
               'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
             }
