@@ -19,8 +19,16 @@ function ImageSection() {
         </h4>
 
         <p className="paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non
-          veritatis aspernatur.
+          A fun loving guy. I find it facinating how technology is changing.
+          <br />
+          Recently I developed passion for Web3.0 and stared to explore the
+          Meta-verse and building some exiting projects.
+          <br />
+          When I am not coding, I love to spend time playing chess and taking
+          care of the plants or planting new ones.
+          <br />
+          Apart from that I like to learn and cook different cuisines Italian,
+          Indian, Indonesian, and Russian.
         </p>
         <div className="about-info">
           <div className="info-title">
@@ -40,14 +48,23 @@ function ImageSection() {
             <p>: Full-stack Web Development</p>
           </div>
         </div>
-        <PrimaryButton
-          title={'Download CV'}
-          link="/portfolio/kiri_resume.pdf"
-        />
+        <ButtonWrapper>
+          <PrimaryButton
+            title={'Download CV'}
+            link="/portfolio/kiri_resume.pdf"
+          />
+        </ButtonWrapper>
       </div>
     </ImageSectionStyled>
   );
 }
+
+const ButtonWrapper = styled.div`
+  @media screen and (max-width: 1000px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
 
 const ImageSectionStyled = styled.div`
   display: flex;
@@ -55,8 +72,12 @@ const ImageSectionStyled = styled.div`
   margin-top: 2.5rem;
   @media screen and (max-width: 1000px) {
     flex-direction: column;
+
     .left-content {
       margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 

@@ -20,7 +20,7 @@ function ServicesSection() {
             image={design}
             title={'Web Design'}
             paragraph={
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+              'Web designing is my profession as well as a hobby. I love what I do.'
             }
           />
           <div className="mid-card">
@@ -28,7 +28,7 @@ function ServicesSection() {
               image={chess}
               title={'Chess'}
               paragraph={
-                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+                'I was a chess player during school. It helps a lot in personal life as well as in professional life.   '
               }
             />
           </div>
@@ -36,14 +36,14 @@ function ServicesSection() {
             image={gamedev}
             title={'Video Games'}
             paragraph={
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+              'A gataway hobby and it also enhances the reflexive skills. The graphics these days are awesome.'
             }
           />
           <ServiceCard
             image={soccer}
             title={'Soccer'}
             paragraph={
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+              'I was Inter-school and Inter-College football player. Helps me stay fit and build endurance.'
             }
           />
           <div className="mid-card">
@@ -51,7 +51,7 @@ function ServicesSection() {
               image={garden}
               title={'Gardening'}
               paragraph={
-                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+                'A small step towards helping the environment. I have roses, cactus, and tomatoes. If have participated in alot of activites where we planted saplings close to our college. '
               }
             />
           </div>
@@ -59,7 +59,7 @@ function ServicesSection() {
             image={reading}
             title={'Reading'}
             paragraph={
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, harum'
+              'I love reading articles not only related to web but also related to science.I have published one of my own in russian local journal and two in international journal. '
             }
           />
         </div>
