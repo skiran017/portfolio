@@ -65,22 +65,22 @@ function App() {
         </div> */}
 
         <Switcher>
-          <Route path="/portfolio" exact>
+          <Route path="/" exact>
             <HomePage />
           </Route>
-          <Route path="/portfolio/about" exact>
+          <Route path="/about" exact>
             <AboutPage />
           </Route>
-          <Route path="/portfolio/resume" exact>
+          <Route path="/resume" exact>
             <ResumePage />
           </Route>
-          <Route path="/portfolio/portfolios" exact>
+          <Route path="/portfolios" exact>
             <PortfoliosPage />
           </Route>
-          <Route path="/portfolio/blogs" exact>
+          <Route path="/blogs" exact>
             <BlogsPage />
           </Route>
-          <Route path="/portfolio/contact" exact>
+          <Route path="/contact" exact>
             <ContactPage />
           </Route>
         </Switcher>
