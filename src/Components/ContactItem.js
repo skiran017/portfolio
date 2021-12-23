@@ -54,21 +54,21 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function ContactItem({ title, icon, cont1, cont2 }) {
+function ContactItem({ icon, title, contact1, contact2 }) {
   return (
     <ContactItemStyled>
       <div className="left-content">{icon}</div>
       <div className="right-content">
         <h6>{title}</h6>
-        <p>{cont1}</p>
-        <p>{cont2}</p>
+        <p>{contact1}</p>
+        <p>{contact2}</p>
       </div>
     </ContactItemStyled>
   );
 }
 
 const ContactItemStyled = styled.div`
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   background-color: var(--background-dark-grey);
   display: flex;
   align-items: center;

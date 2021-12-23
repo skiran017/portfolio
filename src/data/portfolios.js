@@ -9,7 +9,7 @@ import spriteGame from '../img/portImages/spriteGame.PNG';
 import quizGame from '../img/portImages/quizGame.PNG';
 import focusTimer from '../img/portImages/focusTimer.PNG';
 import crwn from '../img/portImages/crwn.PNG';
-import img2 from '../img/portImages/maya-4.jpg';
+import ionicBmi from '../img/portImages/ionicBMI.PNG';
 
 const portfolios = [
   {
@@ -51,9 +51,10 @@ const portfolios = [
   {
     id: 5,
     category: 'Ionic-React',
-    image: img2,
-    link1: 'https://www.google.com',
-    link2: 'https://www.google.com',
+    image: ionicBmi,
+    link1:
+      'https://github.com/skiran017/ionic-react/tree/main/ionic-react-project',
+    link2: 'https://quirky-austin-e96e84.netlify.app/',
     title: 'BMI Calculator',
     text: 'Basic BMI calculator created using Ionic-React',
   },
