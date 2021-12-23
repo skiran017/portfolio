@@ -8,6 +8,7 @@ import gifPortal from '../img/portImages/gifPortal.PNG';
 import spriteGame from '../img/portImages/spriteGame.PNG';
 import quizGame from '../img/portImages/quizGame.PNG';
 import focusTimer from '../img/portImages/focusTimer.PNG';
+import crwn from '../img/portImages/crwn.PNG';
 import img2 from '../img/portImages/maya-4.jpg';
 
 const portfolios = [
@@ -110,6 +111,15 @@ const portfolios = [
     link2: 'https://vigorous-lalande-6aa6fc.netlify.app/',
     title: 'Moving Sprite',
     text: 'React and Canvas implementation of Moving Sprite',
+  },
+  {
+    id: 12,
+    category: 'Full Stack',
+    image: crwn,
+    link1: 'https://github.com/skiran017/crwn-clothing',
+    link2: 'https://crwn-clthing-kiri.herokuapp.com/',
+    title: 'CRWN e-Shopping Website',
+    text: ' Made a full stack e-Commerce site using React, Redux, Styled-Components, Firebase with the integration of Stripe Payment method',
   },
 ];
 

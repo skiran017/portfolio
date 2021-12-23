@@ -16,7 +16,8 @@ function HomePage() {
           Hi, I'm <span> Sai Kiran </span>
         </h1>
         <p>
-          A Front-end web developer, Blockchain enthusiast and passionate about technology from Hyderabad, India.  
+          A Front-end web developer, Blockchain enthusiast and passionate about
+          technology from Hyderabad, India.
         </p>
         <div className="icons">
           <a href="https://facebook.com/skiran017" className="icon i-facebook">

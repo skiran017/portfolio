@@ -158,7 +158,7 @@ h6{
         display: block;
     }
   }
-//Global Media Queries
+
 `;
 
 export default GlobalStyle;

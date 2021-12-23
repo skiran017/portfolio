@@ -36,14 +36,14 @@ function ServicesSection() {
             image={gamedev}
             title={'Video Games'}
             paragraph={
-              'A gataway hobby and it also enhances the reflexive skills. The graphics these days are awesome.'
+              'A getaway hobby and it also enhances my reflexive skills. The graphics these days are awesome.'
             }
           />
           <ServiceCard
             image={soccer}
             title={'Soccer'}
             paragraph={
-              'I was Inter-school and Inter-College football player. Helps me stay fit and build endurance.'
+              'I was Inter-school and Inter-College football player. It helps me stay fit and build endurance.'
             }
           />
           <div className="mid-card">
@@ -51,7 +51,7 @@ function ServicesSection() {
               image={garden}
               title={'Gardening'}
               paragraph={
-                'A small step towards helping the environment. I have roses, cactus, and tomatoes. If have participated in alot of activites where we planted saplings close to our college. '
+                'A small step towards helping the environment. I have Roses, Cactus, and Tomatoes. If have participated in alot of activites where we planted saplings close to our college. '
               }
             />
           </div>

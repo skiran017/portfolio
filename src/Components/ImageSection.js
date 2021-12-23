@@ -37,7 +37,7 @@ function ImageSection() {
             <p>Nationality</p>
             <p>Languages</p>
             <p>Location</p>
-            <p>Services</p>
+            {/* <p>Post</p> */}
           </div>
           <div className="info">
             <p>: Sai Kiran Sabavath</p>
@@ -45,7 +45,7 @@ function ImageSection() {
             <p>: Indian</p>
             <p>: English, Hindi, Russian, German</p>
             <p>: Hyderabad, India</p>
-            <p>: Full-stack Web Development</p>
+            {/* <p>: Full-stack Web Development</p> */}
           </div>
         </div>
         <ButtonWrapper>
@@ -83,7 +83,7 @@ const ImageSectionStyled = styled.div`
 
   .left-content {
     width: 100%;
-    height: 60vh;
+    /* height: 60vh; */
     img {
       width: 90%;
       height: 100%;
@@ -91,6 +91,8 @@ const ImageSectionStyled = styled.div`
     }
   }
   .right-content {
+    width: 100%;
+
     h4 {
       font-size: 2rem;
       color: var(--white-color);

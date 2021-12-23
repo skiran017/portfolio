@@ -19,7 +19,7 @@ function Contactpage() {
         <InnerLayout className="contact-section">
           <div className="left-content">
             <div className="contact-title">
-              <h4>Get in Touch</h4>
+              <h4>Get In Touch</h4>
             </div>
             <form className="form">
               <div className="form-field">
@@ -28,23 +28,23 @@ function Contactpage() {
               </div>
               <div className="form-field">
                 <label htmlFor="email">Enter your email*</label>
-                <input type="text" id="email" />
+                <input type="email" id="email" />
               </div>
               <div className="form-field">
-                <label htmlFor="subject">Enter your subject*</label>
+                <label htmlFor="subject">Enter your subject</label>
                 <input type="text" id="subject" />
               </div>
               <div className="form-field">
                 <label htmlFor="text-area">Enter your Message*</label>
                 <textarea
-                  name="text-area"
-                  id="text-area"
+                  name="textarea"
+                  id="textarea"
                   cols="30"
                   rows="10"
                 ></textarea>
               </div>
               <div className="form-field f-button">
-                <PrimaryButton title={'Submit'} />
+                <PrimaryButton title={'Send Email'} />
               </div>
             </form>
           </div>
@@ -88,14 +88,14 @@ const ContactPageStyled = styled.section`
       grid-template-columns: repeat(1, 1fr);
 
       @media screen and (max-width: 502px) {
-        width: 99%;
+        width: 70%;
       }
     }
 
     .contact-title {
       h4 {
         color: var(--white-color);
-        padding-bottom: 1rem;
+        padding: 1rem 0;
         font-size: 1.8rem;
       }
     }
@@ -124,7 +124,7 @@ const ContactPageStyled = styled.section`
           border: 1px solid var(--border-color);
           outline: none;
           background: transparent;
-          height: 2.8rem;
+          height: 50px;
           padding: 0 15px;
           width: 100%;
           color: inherit;

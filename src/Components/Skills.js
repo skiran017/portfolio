@@ -11,8 +11,7 @@ function Skills() {
       <InnerLayout>
         <div className="skills">
           <ProgressBar title={'HTML5'} width={'80%'} text={'80%'} />
-          <ProgressBar title={'CSS3'} width={'80%'} text={'80%'} />
-          <ProgressBar title={'SCSS'} width={'80%'} text={'80%'} />
+          <ProgressBar title={'CSS/SCSS'} width={'80%'} text={'80%'} />
           <ProgressBar title={'STYLED COMPONENTS'} width={'80%'} text={'80%'} />
           <ProgressBar title={'JAVASCRIPT'} width={'75%'} text={'75%'} />
           <ProgressBar title={'REACT JS'} width={'80%'} text={'80%'} />
@@ -20,6 +19,9 @@ function Skills() {
           <ProgressBar title={'MONGO DB'} width={'70%'} text={'70%'} />
           <ProgressBar title={'EXPRESS'} width={'70%'} text={'70%'} />
           <ProgressBar title={'NODE JS'} width={'70%'} text={'70%'} />
+          <ProgressBar title={'REACT-NATIVE'} width={'65%'} text={'65%'} />
+          <ProgressBar title={'SOLIDITY'} width={'60%'} text={'60%'} />
+          <ProgressBar title={'WEB 3.0'} width={'60%'} text={'60%'} />
         </div>
       </InnerLayout>
     </SkillsStyled>
