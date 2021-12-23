@@ -68,19 +68,19 @@ function App() {
           <Route path="/portfolio" exact>
             <HomePage />
           </Route>
-          <Route path="/about" exact>
+          <Route path="/portfolio/about" exact>
             <AboutPage />
           </Route>
-          <Route path="/resume" exact>
+          <Route path="/portfolio/resume" exact>
             <ResumePage />
           </Route>
-          <Route path="/portfolios" exact>
+          <Route path="/portfolio/portfolios" exact>
             <PortfoliosPage />
           </Route>
-          <Route path="/blogs" exact>
+          <Route path="/portfolio/blogs" exact>
             <BlogsPage />
           </Route>
-          <Route path="/contact" exact>
+          <Route path="/portfolio/contact" exact>
             <ContactPage />
           </Route>
         </Switcher>

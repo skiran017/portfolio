@@ -19,17 +19,21 @@ function Navigation() {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" exact activeClassName="active-class">
+          <NavLink to="/portfolio/about" exact activeClassName="active-class">
             About
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" exact activeClassName="active-class">
+          <NavLink to="/portfolio/resume" exact activeClassName="active-class">
             Resume
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/portfolios" exact activeClassName="active-class">
+          <NavLink
+            to="/portfolio/portfolios"
+            exact
+            activeClassName="active-class"
+          >
             Portfolios
           </NavLink>
         </li>
@@ -39,7 +43,7 @@ function Navigation() {
           </NavLink>
         </li> */}
         <li className="nav-item">
-          <NavLink to="/contact" exact activeClassName="active-class">
+          <NavLink to="/portfolio/contact" exact activeClassName="active-class">
             Contact
           </NavLink>
         </li>
