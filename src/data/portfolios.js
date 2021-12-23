@@ -9,7 +9,7 @@ import spriteGame from '../img/portImages/spriteGame.PNG';
 import quizGame from '../img/portImages/quizGame.PNG';
 import focusTimer from '../img/portImages/focusTimer.PNG';
 import crwn from '../img/portImages/crwn.PNG';
-import ionicBmi from '../img/portImages/ionicBMI.PNG';
+import ionicBMI from '../img/portImages/ionicBMI.PNG';
 
 const portfolios = [
   {
@@ -51,7 +51,7 @@ const portfolios = [
   {
     id: 5,
     category: 'Ionic-React',
-    image: ionicBmi,
+    image: ionicBMI,
     link1:
       'https://github.com/skiran017/ionic-react/tree/main/ionic-react-project',
     link2: 'https://quirky-austin-e96e84.netlify.app/',
