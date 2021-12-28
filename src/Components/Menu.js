@@ -14,12 +14,12 @@ function Menu({ menuItem }) {
                 <img src={item.image} alt="itemImage" />
                 <ul>
                   <li>
-                    <a href={item.link1}>
+                    <a href={item.link1} target="_blank" rel="noreferrer">
                       <Githubicon />
                     </a>
                   </li>
                   <li>
-                    <a href={item.link2}>
+                    <a href={item.link2} target="_blank" rel="noreferrer">
                       <LanguageIcon />
                     </a>
                   </li>

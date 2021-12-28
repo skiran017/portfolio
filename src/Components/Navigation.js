@@ -213,7 +213,7 @@ const StyledInput = styled.input`
   height: 36px;
   padding: 0 15px;
   /* width: 100%; */
-  color: white;
+  color: inherit;
   text-align: center;
 `;
 

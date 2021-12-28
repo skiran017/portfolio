@@ -4,6 +4,7 @@ import contactKeeper from '../img/portImages/contactKeeper.PNG';
 import gitFinder from '../img/portImages/gitFinder.PNG';
 import talkList from '../img/portImages/talkList.PNG';
 import nftDrop from '../img/portImages/nftDrop.PNG';
+import prism from '../img/portImages/prism.PNG';
 import gifPortal from '../img/portImages/gifPortal.PNG';
 import spriteGame from '../img/portImages/spriteGame.PNG';
 import quizGame from '../img/portImages/quizGame.PNG';
@@ -47,6 +48,15 @@ const portfolios = [
     link2: 'https://friendly-hawking-789474.netlify.app/',
     title: 'Mint your NFT',
     text: 'NFT market place to mint your own NFT created using Metaplex on Solana Blockchain',
+  },
+  {
+    id: 13,
+    category: 'Web3.0',
+    image: prism,
+    link1: 'https://github.com/skiran017/market-place',
+    link2: 'https://market-place-skiran017.vercel.app/',
+    title: 'NFT Market Place',
+    text: 'NFT market place to where you can download Prism Album connecting to Ethereum wallet. Deployed on Rinkeyby network.',
   },
   {
     id: 5,
