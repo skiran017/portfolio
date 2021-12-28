@@ -5,6 +5,7 @@ import gitFinder from '../img/portImages/gitFinder.PNG';
 import talkList from '../img/portImages/talkList.PNG';
 import nftDrop from '../img/portImages/nftDrop.PNG';
 import prism from '../img/portImages/prism.PNG';
+import tip from '../img/portImages/tip.PNG';
 import gifPortal from '../img/portImages/gifPortal.PNG';
 import spriteGame from '../img/portImages/spriteGame.PNG';
 import quizGame from '../img/portImages/quizGame.PNG';
@@ -57,6 +58,15 @@ const portfolios = [
     link2: 'https://market-place-skiran017.vercel.app/',
     title: 'NFT Market Place',
     text: 'NFT market place to where you can download Prism Album connecting to Ethereum wallet. Deployed on Rinkeyby network.',
+  },
+  {
+    id: 14,
+    category: 'Web3.0',
+    image: tip,
+    link1: 'https://github.com/skiran017/tip-jar',
+    link2: 'https://tip-jar-skiran017.vercel.app/',
+    title: 'Tip-jar',
+    text: 'A super cool way to collect tips for your creavtive projects using web3.0. This is for Ethereum, I have also implemented it for Solana which you can see live on this portfolio.',
   },
   {
     id: 5,
