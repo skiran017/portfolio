@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Particle from '../Components/Particles';
-import Facebookicon from '@material-ui/icons/Facebook';
+import Twittericon from '@material-ui/icons/Twitter';
 import Githubicon from '@material-ui/icons/GitHub';
 import LinkedInicon from '@material-ui/icons/LinkedIn';
 
@@ -20,15 +20,16 @@ function HomePage() {
           technology from Hyderabad, India.
         </p>
         <div className="icons">
-          <a href="https://facebook.com/skiran017" className="icon i-facebook">
-            <Facebookicon />
+          <a href="https://twitter.com/skiran017" className="icon i-twitter" target='_blank' rel="noreferrer">
+            <Twittericon />
           </a>
-          <a href="https://github.com/skiran017" className="icon i-github">
+          <a href="https://github.com/skiran017" className="icon i-github" target='_blank' rel="noreferrer">
             <Githubicon />
           </a>
           <a
             href="https://linkedin.com/in/skiran017"
             className="icon i-linkedin"
+            target='_blank' rel="noreferrer"
           >
             <LinkedInicon />
           </a>
@@ -80,10 +81,10 @@ const HomepageStyled = styled.header`
           margin: 0.5rem;
         }
       }
-      .i-facebook {
+      .i-twitter {
         &:hover {
-          border: 2px solid #1877f2;
-          color: #1877f2;
+          border: 2px solid rgb(29, 155, 240);
+          color: rgb(29, 155, 240);
         }
       }
       .i-github {
