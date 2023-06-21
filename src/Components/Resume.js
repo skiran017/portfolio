@@ -19,12 +19,22 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
-            year={'2021 - till date'}
+            year={'Sept 2022 - till date'}
+            title={'Fullstack Developer'}
+            subTitle={'Amberley Tech'}
+          />
+          <ResumeItem
+            year={'Jun 2022 - Sept 2022'}
+            title={'Fullstack Developer'}
+            subTitle={'Alekhine Labs'}
+          />        
+          <ResumeItem
+            year={'Jan 2021 - Jul 2022'}
             title={'Frontend Engineer'}
             subTitle={'Dhan AI'}
           />
           <ResumeItem
-            year={'2018 - 2020'}
+            year={'Aug 2018 - Jan 2021'}
             title={'Software Engineer'}
             subTitle={'SSurya Immortal Power (OPC) Ltd.'}
           />
