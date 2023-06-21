@@ -25,8 +25,8 @@ function Resume() {
           />
           <ResumeItem
             year={'2018 - 2020'}
-            title={'Subject Matter Expert -TRON'}
-            subTitle={'Amazon India'}
+            title={'Software Engineer'}
+            subTitle={'SSurya Immortal Power (OPC) Ltd.'}
           />
         </div>
         <div className="small-title u-small-title-margin">
