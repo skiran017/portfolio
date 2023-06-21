@@ -51,7 +51,7 @@ function ImageSection() {
         <ButtonWrapper>
           <PrimaryButton
             title={'Download CV'}
-            link="/portfolio/kiri_resume.pdf"
+            link="/portfolio/Sai_Kiran_Sabavath_Blockchain_dev.pdf"
           />
         </ButtonWrapper>
       </div>
